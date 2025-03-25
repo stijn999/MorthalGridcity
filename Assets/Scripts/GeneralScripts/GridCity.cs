@@ -35,15 +35,29 @@ namespace Demo {
 			for (int row = 0; row<rows; row++) {
 				for (int col = 0; col<columns; col++) {
 
+					
 					int randomInt = Random.Range(1, 10);
-					float randomFloat = Random.Range(0.0f, 45.0f); 
+					Vector3 position = new Vector3(col * columnWidth + randomInt, 0, row * rowWidth + randomInt);
+					float randomFloat = Random.Range(0.0f, 45.0f);
+
+
+					Collider[] overlaps = Physics.OverlapBox(position + new Vector3(0,10,0), new Vector3(5, 5, 5));
+					if (overlaps.Length > 0) continue;
+
+					//terrain raycast
+					RaycastHit hitinfo;
+					if (Physics.Raycast(position + new Vector3(0, 50, 0), Vector3.down, out hitinfo, 51))
+					{
+						position.y = hitinfo.point.y;
+					}
+					if (position.y < 2) continue;
 
 					// Create a new building, chosen randomly from the prefabs:
 					int buildingIndex = Random.Range(0, buildingPrefabs.Length);
 					GameObject newBuilding = Instantiate(buildingPrefabs[buildingIndex], transform);
 
 					// Place it in the grid:
-					newBuilding.transform.localPosition = new Vector3(col * columnWidth+randomInt, 0, row* rowWidth+randomInt);
+					newBuilding.transform.localPosition = position;
 					// Rotate building randomly
 					newBuilding.transform.Rotate(0.0f, randomFloat, 0.0f);
 
