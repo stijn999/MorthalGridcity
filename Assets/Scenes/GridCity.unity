@@ -437,12 +437,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4a3bb68da96a0b46b33ef8e99bb0ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 3
-  columns: 3
-  rowWidth: 4
-  columnWidth: 4
+  rows: 10
+  columns: 10
+  rowWidth: 10
+  columnWidth: 10
   buildingPrefabs:
-  - {fileID: 3604920485432597347, guid: fee6c2ac503a81e4cb074a72365b79d0, type: 3}
+  - {fileID: 6854278902155392411, guid: e65d4c08701546541a1797e45dd0a683, type: 3}
   buildDelaySeconds: 0.1
 --- !u!4 &1087066582
 Transform:

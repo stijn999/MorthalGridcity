@@ -36,15 +36,15 @@ namespace Demo {
 				for (int col = 0; col<columns; col++) {
 
 					
-					int randomInt = Random.Range(1, 10);
+					int randomInt = Random.Range(1, 15);
 					Vector3 position = new Vector3(col * columnWidth + randomInt, 0, row * rowWidth + randomInt);
-					float randomFloat = Random.Range(0.0f, 45.0f);
+					float randomFloat = Random.Range(0.0f, 90.0f);
 
 
-					Collider[] overlaps = Physics.OverlapBox(position + new Vector3(0,10,0), new Vector3(5, 5, 5));
+					Collider[] overlaps = Physics.OverlapBox(position + new Vector3(10,-5,10), new Vector3(50, -1, 50));
 					if (overlaps.Length > 0) continue;
 
-					//terrain raycast
+					////terrain raycast
 					RaycastHit hitinfo;
 					if (Physics.Raycast(position + new Vector3(0, 50, 0), Vector3.down, out hitinfo, 51))
 					{
