@@ -236,6 +236,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: roofHigh (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -329,6 +339,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6854278902155392406}
     m_Modifications:
+    - target: {fileID: -7060283635522565193, guid: 506dc033b19b70b42affc813b3bde6c5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     - target: {fileID: -4216859302048453862, guid: 506dc033b19b70b42affc813b3bde6c5,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -784,6 +799,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: roofHigh (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1040,6 +1060,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6854278902155392406}
     m_Modifications:
+    - target: {fileID: -7060283635522565193, guid: 506dc033b19b70b42affc813b3bde6c5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
+    - target: {fileID: -7060283635522565193, guid: 506dc033b19b70b42affc813b3bde6c5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     - target: {fileID: -4216859302048453862, guid: 506dc033b19b70b42affc813b3bde6c5,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1199,6 +1229,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: roofHigh (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1446,6 +1486,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: roofHigh (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1624,6 +1674,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: roofHighRight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7449604854370486233, guid: ba46c5b0f2a1a5140a044b23cc7e90ad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
+    - target: {fileID: 7449604854370486233, guid: ba46c5b0f2a1a5140a044b23cc7e90ad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1787,6 +1847,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: roofHighRight
       objectReference: {fileID: 0}
+    - target: {fileID: 7449604854370486233, guid: ba46c5b0f2a1a5140a044b23cc7e90ad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1876,6 +1941,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: roofHigh (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2424,6 +2499,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: roofHigh (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2676,6 +2761,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: roofHigh (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3411,6 +3506,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: roofHigh
       objectReference: {fileID: 0}
+    - target: {fileID: 339395064170225166, guid: e690a6b4d2de04949a7de97c6149e44d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4079815107442cd4c8e5afc008e8a35f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

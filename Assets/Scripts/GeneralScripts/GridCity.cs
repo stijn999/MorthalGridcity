@@ -44,16 +44,19 @@ namespace Demo {
 					Collider[] overlaps = Physics.OverlapBox(position + new Vector3(10,-5,10), new Vector3(50, -1, 50));
 					if (overlaps.Length > 0) continue;
 
-					////terrain raycast
-					RaycastHit hitinfo;
-					if (Physics.Raycast(position + new Vector3(0, 50, 0), Vector3.down, out hitinfo, 51))
-					{
-						position.y = hitinfo.point.y;
-					}
-					if (position.y < 2) continue;
+                    ////terrain raycast
+                    RaycastHit hitinfo;
+                    if (Physics.Raycast(position + new Vector3(0, 50, 0), Vector3.down, out hitinfo, 51))
+                    {
+                        position.y = hitinfo.point.y;
+                    }
 
-					// Create a new building, chosen randomly from the prefabs:
-					int buildingIndex = Random.Range(0, buildingPrefabs.Length);
+                    // Only place buildings on terrain height between 3 and 4
+                    if (position.y < 3f || position.y > 4f) continue;
+
+
+                    // Create a new building, chosen randomly from the prefabs:
+                    int buildingIndex = Random.Range(0, buildingPrefabs.Length);
 					GameObject newBuilding = Instantiate(buildingPrefabs[buildingIndex], transform);
 
 					// Place it in the grid:
